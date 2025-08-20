@@ -27,8 +27,9 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px] mb-5">
-          I'm a dedicated software developer specializing in web and game development. With a Bachelor's Degree in Software Development in Virtual Reality and Gaming, I'm currently in my second year of studies, further expanding my knowledge and skills.
-          I thrive in collaborative environments and enjoy taking on challenges.
+          I’m a Software Engineer (VR & Gaming) student passionate about building efficient, innovative systems.
+          During my 8-month internship at Ericsson, I worked on Agile teams developing automation tools, modular architectures, and AI/LLM workflows. My experience spans across multiple technologies including Rust, Python, Java, Redis, Docker, and LangChain, as well as mentoring younger developers through workshops and the INFUSE program.
+          I enjoy solving problems, collaborating in diverse teams, and love learning new tools and approaches.
           Beyond coding, I find inspiration in various interests, including basketball, gaming, fitness, and music.
       </motion.p>
       <div className="empty-20 flex flex-wrap gap-10">

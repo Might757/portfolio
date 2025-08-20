@@ -1,41 +1,48 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    java,
-    php,
-    mysql,
-    csharp,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    kbz,
-    tesla,
-    unity,
-    shopify,
-    rumo,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-    prj_one,
-    prj_two,
-    prj_three,
-    prj_four,
-    prj_five,
-  } from "../assets";
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  java,
+  php,
+  mysql,
+  csharp,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  kbz,
+  tesla,
+  unity,
+  shopify,
+  rumo,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+  prj_one,
+  prj_two,
+  prj_three,
+  prj_four,
+  prj_five,
+  ericsson,
+  rust,
+  python,
+  vba,
+  redis,
+  archi,
+
+} from "../assets";
   
   export const navLinks = [
     {
@@ -53,22 +60,22 @@ import {
   ];
   
   const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "Game Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer (MySQL)",
-      icon: backend,
-    },
-    {
-      title: "PHP Developer",
-      icon: creator,
-    },
+    // {
+    //   title: "Web Developer",
+    //   icon: web,
+    // },
+    // {
+    //   title: "Game Developer",
+    //   icon: mobile,
+    // },
+    // {
+    //   title: "Backend Developer (MySQL)",
+    //   icon: backend,
+    // },
+    // {
+    //   title: "PHP Developer",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -105,15 +112,57 @@ import {
       icon: unity,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "Rust",
+      icon: rust,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "VBA",
+      icon: vba,
+    },
+    {
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "Redis",
+      icon: redis,
+    },
+    {
+      name: "jArchi",
+      icon: archi,
     },
   ];
   
   const experiences = [
-    {
-      title: "Software Engineering Intern - Client Application Team",
-      company_name: "KnowledgeBiz",
+      {
+        title: "Software Engineer Intern",
+        company_name: "Ericsson LM",
+        icon: ericsson,
+        iconBg: "#E6DEDD",
+        date: "Jan 2025 - August 2025",
+        points: [
+          "Actively contributed in daily stand-ups, backlog refinement, and product discussions. Documented stand-up minutes, tracked tasks on Kanban boards, and maintained detailed Confluence pages for development guides, documentation about certain features and team support.",
+          "Mentored participants in the INFUSE program in web development and Unity game development. Delivered a C# workshop introducing programming fundamentals to support Unity projects, and guided teams in applying Agile practices effectively.",
+          "Developed automation scripts in Python, VBA, JavaScript, jArchi, and Java to generate Confluence pages directly from Archi model data, significantly reducing manual workload for architects and study authors.",
+          "Co-led a system overhaul, migrating from in-tool Archi scripting to a modular architecture. I helped design a REST API in Rust with Redis for Archi's model data, as well as a python router for endpoint access, and with the help of docker, containerized services to enable multi-language feature development.",
+          "Built an Archi plugin with Eclipse PDE and Java to enable not only live previews of the model diagrams, but also when publishing in Confluence, improving not only accuracy but also reducing publishing errors. I also implemented error handling and resolved some rendering bugs.",
+          "Supported the development of a LangChain-based RAG chatbot to answer queries about ENM architecture, leveraging Redis and later a vector database for semantic search.",
+          "I also built an AI agent to automatically draft detailed ENM change study documents by sourcing structured data from Confluence and our internal vector database.",
+          "Rapidly adapted to new frameworks, including Eclipse PDE, LangChain and Rust, applying them to deliver features. I also improved debugging, testing and documentation practices.",
+          "Key Technologies used: Rust, Python, TypeScript, Java, JavaScript, HTML, CSS, VBA, Docker, Redis, Eclipse PDE, jArchi, LangChain, REST APIs, Confluence, Archi, Git, Agile/Scrum."
+        ],
+      },
+      {
+      title: "Software Engineer Intern",
+      company_name: "Knowledge Biz",
       icon: kbz,
       iconBg: "#E6DEDD",
       date: "Feb 2020 - Apr 2021",
@@ -124,7 +173,7 @@ import {
       ],
     },
     {
-      title: "Software Engineering Intern – Web Development Team",
+      title: "Software Engineering Intern",
       company_name: "RUMO",
       icon: rumo,
       iconBg: "#E6DEDD",
@@ -274,6 +323,28 @@ import {
       image: prj_five,
       source_code_link: "https://github.com/Might757/delivered",
       webp_link: "https://mighht.itch.io/delivered",
+    },
+    {
+      name: "Patient Zero",
+      description:
+          "You are John Doe, the first carrier of a deadly, mind-altering disease. Waking up in bed, you’re consumed by an uncontrollable urge to spread the infection throughout the city.",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "gamedesign",
+          color: "green-text-gradient",
+        },
+        {
+          name: "2D/3D",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: prj_five,
+      source_code_link: "https://github.com/Might757/PatientZero_GF2024",
+      webp_link: "https://github.com/Might757/PatientZero_GF2024",
     },
   ];
   

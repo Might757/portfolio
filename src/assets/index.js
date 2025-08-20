@@ -24,15 +24,22 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import typescript from "./company/typescript.svg";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import kbz from "./company/kbz.png";
+import ericsson from "./company/ericsson.png";
 import rumo from "./company/rumo.png";
 import tesla from "./company/tesla.png";
+import rust from "./company/rust.svg";
+import python from "./company/python.svg";
+import vba from "./company/vba.svg";
+import redis from "./company/redis.svg";
+import archi from "./company/archi.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -61,6 +68,11 @@ export {
   unity,
   mysql,
   php,
+  rust,
+  vba,
+  archi,
+  redis,
+  python,
   java,
   javascript,
   mongodb,
@@ -74,6 +86,7 @@ export {
   shopify,
   starbucks,
   kbz,
+  ericsson,
   rumo,
   tesla,
   carrent,
