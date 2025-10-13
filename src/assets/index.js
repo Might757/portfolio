@@ -49,6 +49,7 @@ import prj_two from "./lol_img.png";
 import prj_three from "./rebm_img.png";
 import prj_four from "./yngk.webp";
 import prj_five from "./delivered.webp";
+import prj_six from "./GameFleadh.webp";
 
 export {
   logo,
@@ -98,4 +99,5 @@ export {
   prj_three,
   prj_four,
   prj_five,
+  prj_six,
 };
