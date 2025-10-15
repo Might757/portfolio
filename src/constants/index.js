@@ -249,7 +249,7 @@ import {
       ],
       image: prj_two,
       source_code_link: "https://github.com/Might757/lolWiki",
-      webp_link: "https://lol-wiki-g6tqt8x1y-might757s-projects.vercel.app/champions.html",
+      webp_link: "https://lol-wiki.vercel.app/",
     },
     {
       name: "REBM",
